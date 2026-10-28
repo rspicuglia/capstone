@@ -9,7 +9,7 @@
 ## 📖 Research Question & Overview
 > **Central Question:** *How did reported COVID-19 cases and deaths change over time across countries, and how did first-dose vaccine coverage progress over the same period?*
 
-This application is designed as an interactive, descriptive historical surveillance explorer (covering January 2020 through March 2023, when JHU concluded global data collection). The dashboard defaults to **US, Italy, Peru, and Chile** and provides synchronized, neutral comparison presets:
+This application is as an interactive, descriptive historical surveillance explorer (covering January 2020 through March 2023, when JHU concluded global data collection). The dashboard defaults to **US, Italy, Peru, and Chile** and provides synchronized, neutral comparison presets:
 1. **US, Italy, Peru, Chile (Default):** Cross-regional comparative baseline.
 2. **Bolivia, Chile, Peru:** Regional neighboring countries in South America.
 3. **Chile, Uruguay:** Early vaccination leaders in the Southern Hemisphere.
