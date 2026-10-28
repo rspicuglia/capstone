@@ -56,7 +56,7 @@ Users can also select and compare any country from the global Johns Hopkins data
 2. **Reporting Revisions Retained:** Retrospective corrections released by national health ministries (including negative daily adjustments and batch additions) are retained as historical corrections rather than silently zeroed out.
 3. **Geographic Boundaries & Non-Country Filtering:** Non-country records (cruise ships and Olympic events) are excluded. For countries with separately listed overseas dependencies (notably the UK, France, Netherlands, and Denmark), the mainland national row is used so that mortality and case counts match national population denominators and vaccination coverage series.
 4. **Denominators:** Crude rates per 100,000 residents use fixed 2021 population estimates from JHU CSSE's official lookup table (`UID_ISO_FIPS_LookUp_Table.csv`).
-5. **Robust Ingestion:** A bundled snapshot of the OWID vaccination data (`data/vaccinations_snapshot.csv`) keeps that series fixed and reproducible; JHU surveillance data loads from the archived JHU repository with graceful error handling.
+5. **Robust Ingestion:** A bundled snapshot of the OWID vaccination data (`data/vaccinations_snapshot.csv`) keeps that series fixed and reproducible; JHU surveillance data loads from the archived JHU repository.
 
 ---
 
